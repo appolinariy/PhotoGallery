@@ -1,0 +1,46 @@
+.photoGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  padding-top: 1%;
+  color: #8675a9;
+}
+
+h4 {
+  margin-top: 0;
+  color: #8675a9;
+}
+
+.photoBlock {
+  display: flex;
+  flex-direction: column;
+  background-color: thistle;
+  box-sizing: border-box;
+  margin: 5% auto 5% auto;
+}
+
+.controlBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.controlBtn button {
+  all: unset;
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #c3aed6;
+}
+.controlBtn button:hover {
+  cursor: pointer;
+  background-color: #b89ad4;
+}
+
+.pageNumber {
+  margin: 5%;
+}
